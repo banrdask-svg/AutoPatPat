@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autopatpat",
+  "version": "${version}",
+  "name": "Auto PatPat",
+  "description": "Automatic PatPat, nickname lists and friend protection, with a rebindable settings hotkey.",
+  "authors": ["admin"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.admin.autopatpat.AutoPatPatClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "patpat": "${patpat_version}"
+  }
+}
